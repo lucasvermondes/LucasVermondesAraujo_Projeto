@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initialscale=1, maximum-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="meu_estilo.css">
+    <!-- 2436585 - Lucas Vermondes Araújo -->
+</head>
+
+<div class="topohome">
+    <div>
+        <img src="img/logo_tcs.png" alt="logo tcs" class="logohome">
+    </div>
+    <div class="textohome">
+        <nobr class="resumologo">Fiz uma alteração na logo da TCS</nobr><p></p>
+        <nobr class="resumologo">usando as letras do meu nome.</nobr>
+    </div>
+    
+</div>
+<div>
+    <ul>
+    <li><a href="home.html" class="pagina_atual">Home</a></li>
+    <li><a href="pessoal.html">Pessoal</a></li>
+    <li><a href="galeria.html">Galeria</a></li>
+  </ul>
+</div>
+
+<script type="text/javascript">
+    var alertado = sessionStorage.getItem('alertado') || '';
+    if (alertado != 'sim') {
+     alert("Teste Prático 1 de Lucas V. Araújo!\nID:2436585");
+     sessionStorage.setItem('alertado','sim');
+    }
+</script>
+
+<body>
+</body>
+
+<footer>
+    <img src="img/logo_footer.png" alt="logo lucas vermondes" class="logofooter">
+</footer>
+
