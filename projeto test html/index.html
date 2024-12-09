@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>TCS - Projeto</title>
+<link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div class="logindiv">
+        <img class="login_logo" src="img/logo.png">
+    </div>    
+    
+    <div class="loginform" data-validate = "Enter username" required>
+        <input class="loginform" type="text" name="username" placeholder="ID" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))" >        
+    </div>
+
+    <div class="loginform" data-validate="Enter password">
+        <input class="loginform" type="password" name="pass" placeholder="PASSWORD">    
+    </div> <br><br>
+    
+    <div class="loginbg">
+        <button class="loginbutton" type="submit">LOGIN</button>              
+    </div>
+
+    <footer>
+        
+    </footer>
+         
+
+</body>
+
+</html>
+
+
+
+
+
+
