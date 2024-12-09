@@ -4,41 +4,58 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initialscale=1, maximum-scale=1.0">
-    <title>Home</title>
+    <title>Sobre Mim</title>
     <link rel="stylesheet" href="meu_estilo.css">
     <!-- 2436585 - Lucas Vermondes Araújo -->
 </head>
+
+<body>
 
 <div class="topohome">
     <div>
         <img src="img/logo_tcs.png" alt="logo tcs" class="logohome">
     </div>
     <div class="textohome">
-        <nobr class="resumologo">Fiz uma alteração na logo da TCS</nobr><p></p>
-        <nobr class="resumologo">usando as letras do meu nome.</nobr>
+        <nobr class="resumologo">Lucas Vermondes Araújo</nobr><p></p>
+        <nobr class="resumologo">RU: 4925840</nobr>
     </div>
-    
 </div>
+
 <div>
     <ul>
-    <li><a href="home.html" class="pagina_atual">Home</a></li>
-    <li><a href="pessoal.html">Pessoal</a></li>
-    <li><a href="galeria.html">Galeria</a></li>
-  </ul>
+        <li><a href="home.html" class="pagina_atual">Sobre Mim</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
 </div>
 
 <script type="text/javascript">
     var alertado = sessionStorage.getItem('alertado') || '';
     if (alertado != 'sim') {
-     alert("Teste Prático 1 de Lucas V. Araújo!\nID:2436585");
+     alert("Lucas Vermondes Araújo\nRU: 4925840");
      sessionStorage.setItem('alertado','sim');
     }
 </script>
 
-<body>
-</body>
+<header>
+    <br><br><h1 class="titulo">Lucas Vermondes Araújo</h1><br><br>
+</header>
+
+<section>    
+    <p class="txt"><strong>Nome:</strong> Lucas Vermondes Araújo</p>
+    <p class="txt"><strong>Cidade:</strong> Natural de Assaí-PR, morando em Londrina-PR</p>
+    <p class="txt"><strong>Ocupação:</strong> Trainee em uma empresa de Londrina</p>
+    <p class="txt"><strong>Estudando:</strong> Python</p>
+    <p class="txt"><strong>Hobbies:</strong> Jogos de computador, esportes como Tennis e Beach Tennis, Golf e sair para jantar em restaurantes diferentes</p>
+</section>
+
+
 
 <footer>
     <img src="img/logo_footer.png" alt="logo lucas vermondes" class="logofooter">
 </footer>
 
+</body>
+
+</html>

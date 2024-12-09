@@ -1,167 +1,187 @@
-*{
-    margin: 0;
-    border: 0;
-    padding: 0;
-    font-family: Verdana;
-    }
-    /*2436585 - Lucas Vermondes Araújo*/
-html{
-    max-width: 100%;
-    overflow-x: hidden;
-    }
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    width: 100%;
-    font-size: 20px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-  }  
-  li{
-    float: left;
-    width: 33.33%;
-    max-width: 100%;
-    height: auto;
-    margin: 0;
-    
-  }  
-  li a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }  
-  li a:hover {
-    background-color: #111;
-  }
-  .pagina_atual {
-    background-color: rgb(255, 0, 0);
-  }
-  body{
-    background-color: #ffffff;
-  }
-  .logocentro{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-  }
-  .logohome{
-    display: block;
-    margin-left: 0;
-    margin-right: auto;
-    max-width: 100%;
-    float: left;
-   
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-family: Verdana;
+}
 
-    
-  }  
-  .logofooter{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 50px;
-    max-width: 100%;
-  }
-  footer{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-    overflow: auto;
-    width: 100%;
-    height: 2.5rem;
-  }
-  h1{
-    text-align: center;
-    font-family: Verdana;
-    font-size: 35px;
-  }
-  .meunome{
-    color: rgb(0, 125, 197);
-  }
-  table{
-    text-align: center;
-    position: center;
-    border-collapse: collapse; 
-    background-color: #f6f6f6;
-    font-family: Verdana;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-    border-collapse: collapse;
-  }
-  td{
-    border: 1px solid #999;
-    padding: 20px;
-  }
-  th{
-    background: rgb(255, 0, 0);
-    color: white;
-    border-radius: 0;
-    position: sticky;
-    top: 0;
-    padding: 10px;    
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    -moz-border-radius: 10px;
-    padding: 10px;    
-  }
-  #page-container {
-    position: relative;
-    min-height: 100vh;
-  }  
-  #content-wrap {
-    padding-bottom: 2.5rem;
-  }
-  .resumologo{
-    color: rgb(0, 125, 197);
-    font-family: verdana;
-    position: relative;
-    overflow: hidden;     
-  }
-  .textohome{
-    padding-top: 100px;
-    font-size: 20px;
-    padding: 20px;
-    padding-top: 100px;
-    text-align: center;       
-  }
-  .imgal{
-    max-width: 100%;
-  }
-  #grid-container{
-    margin-top: 5px;
-    
+html {
+  max-width: 100%;
+  overflow-x: hidden;
 }
-.grid{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
-    gap: 1px;
-    max-width: 1200px;   
-    margin: 0;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5px;
-    
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  width: 100%;
+  font-size: 20px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
-.grid div{
-    background-color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    font-size: 1.6rem;
-    padding: 5px;
+
+li {
+  float: left;
+  width: 25%;
+  /* porcentagem que vai utilizar cada botao na largura da pagina*/
+  max-width: 100%;
+  height: auto;
+  margin: 0;
 }
-.txtg{
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+  /* cor do botao com mouse em cima*/
+}
+
+.pagina_atual {
+  background-color: rgb(255, 0, 0);
+  /* cor do botao de navegação na pagina atual*/
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.logocentro {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.logohome {
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  max-width: 100%;
+  float: left;
+}
+
+.logofooter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  max-width: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  overflow: auto;
+  width: 100%;
+  height: 2.5rem;
+}
+
+h1 {
+  text-align: center;
+  font-family: Verdana;
+  font-size: 35px;
+}
+
+.meunome {
+  color: rgb(0, 125, 197);
+}
+
+table {
+  text-align: center;
+  position: center;
+  border-collapse: collapse;
+  background-color: #f6f6f6;
+  font-family: Verdana;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid #999;
+  padding: 20px;
+}
+
+th {
+  background: rgb(255, 0, 0);
+  color: white;
+  border-radius: 0;
+  position: sticky;
+  top: 0;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+.resumologo {
+  color: rgb(0, 125, 197);
+  font-family: verdana;
+  position: relative;
+  overflow: hidden;
+}
+
+.textohome {
+  padding-top: 100px;
+  font-size: 20px;
+  padding: 20px;
+  padding-top: 100px;
+  text-align: center;
+}
+
+.imgal {
+  max-width: 100%;
+}
+
+#grid-container {
+  margin-top: 5px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+  gap: 1px;
+  max-width: 1200px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+}
+
+.grid div {
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.6rem;
+  padding: 5px;
+}
+
+.txtg {
   color: rgb(0, 125, 197);
   font-family: verdana;
 }
-.txt{
+
+.txt {
   display: block;
   background-color: #fff;
   width: 80%;
@@ -171,12 +191,58 @@ ul{
   margin-bottom: 0px;
   margin-left: auto;
   padding: 15px;
-  text-align: justify; 
+  text-align: justify;
   font-size: 20px;
   max-width: 80%;
   font-family: verdana;
 }
-.titulo{
+
+.titulo {
   color: rgb(0, 125, 197);
   font-family: verdana;
+}
+
+.contato-form {
+  width: 80%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #f6f6f6;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contato-form label {
+  font-size: 18px;
+  color: rgb(0, 125, 197);
+  font-family: Verdana;
+}
+
+.contato-form input,
+.contato-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contato-form textarea {
+  resize: vertical;
+}
+
+.contato-form button {
+  background-color: rgb(0, 125, 197);
+  color: white;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contato-form button:hover {
+  background-color: rgb(0, 100, 150);
 }

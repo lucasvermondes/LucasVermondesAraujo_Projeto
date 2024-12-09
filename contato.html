@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initialscale=1, maximum-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="meu_estilo.css">
+    <!-- 2436585 - Lucas Vermondes Araújo -->
+</head>
+
+<div>
+    <img src="img/logo_tcs.png" alt="logo tcs" class="logocentro">
+</div>
+
+<div>
+    <ul>
+        <li><a href="home.html">Sobre Mim</a></li>
+        <li><a href="formacao.html">Formação</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contato.html" class="pagina_atual">Contato</a></li>
+    </ul>
+</div>
+
+<body>
+    <div id="page-container">
+        <div id="content-wrap">
+            <br><br>
+            <h1 class="meunome">Entre em contato</h1><br><br>
+            <section>
+
+                <form id="contato-form" action="#" method="post" class="contato-form">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><br>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br><br>
+
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva sua mensagem"
+                        required></textarea><br><br>
+
+                    <button type="submit" class="botao-enviar">Enviar</button>
+                </form>
+            </section>
+
+
+        </div>
+
+        <script>
+            document.getElementById("contato-form").addEventListener("submit", function (event) {
+                event.preventDefault(); // Impede o envio do formulário para evitar recarregar a página
+
+                // Exibe um alerta indicando que a mensagem foi enviada
+                alert("Mensagem enviada com sucesso!");
+
+                // Limpa os campos do formulário após o envio
+                document.getElementById("contato-form").reset();
+            });
+        </script>
+
+
+        <footer>
+            <img src="img/logo_footer.png" alt="logo lucas vermondes" class="logofooter">
+        </footer>
+
+    </div>
+
+</body>
